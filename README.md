@@ -179,4 +179,6 @@ With 95% confidence interval the range of improvement is between-14% and 12%, wi
 View binary
 P value 0.2, and lift is 2.6% with a 95% confidence interval being -1.4% – 6.5%. The p value shows some good confidence that the experiment has a influence on the success rate. 
 However the success rate is 2.6% and insignificant
+
+Obviously i wont be able to include graphs that i created into Github. Please be kind in your review. I did created two bar charts. I just cannot include it due to the shortcomings of this course assignment set-up.
 ```
