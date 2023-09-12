@@ -7,8 +7,8 @@ Compare this table to the assignment events we captured for user_level_testing.
 Does this table have everything you need to compute metrics like 30-day view-binary?
 
 ```
-Answer: The table itself is missing event_id (an identifier for that event) and event_time. 
-Without event_time, i cannot compare whether the view item event is after the assignment or not.
+Answer: The table itself is missing event_id (an identifier for that event) and a date column - event_time. 
+Without date, i cannot compare whether the view item event is after the assignment or not.
 ```
 SELECT 
   * 
