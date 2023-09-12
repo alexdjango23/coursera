@@ -1,4 +1,4 @@
-# Hi student, the reason i am not using Mode, is because as free user i cannot enable external sharing. This is the shortcoming of the course set-up.  Note that in order to share a Mode link with external views, you have to pay to be a premium account.
+Hi student, the reason i am not using Mode, is because as free user i cannot enable external sharing. This is the shortcoming of the course set-up.  Note that in order to share a Mode link with external views, you have to pay to be a premium account.
 
 # Please see answers below. You can copy and paste the code into Mode to validate the result. You can find the table and charts under the Files section on the left hand side.
 
