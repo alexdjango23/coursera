@@ -123,6 +123,9 @@ For both experiments, there is no statistically significant change to the metric
 ```
 For both experiments, there is no statistically significant change to the metrics viewed percent as a result of the treatment.
 
-Obviously i wont be able to include graphs that i created into Github. Please be kind in your review. I did created two bar charts. I just cannot include it due to the shortcomings of this course assignment set-up. Note that in order to share a Mode link with external views, you have to pay to be a premium account. This is a trap. Therefore, i cannot share my Mode link.
+Obviously i wont be able to include graphs that i created into Github. Please be kind in your review. I did created two bar charts.
+I just cannot include it due to the shortcomings of this course assignment set-up.
+Note that in order to share a Mode link with external views, you have to pay to be a premium account. This is a trap.
+Therefore, i cannot share my Mode link.
 
 ```
