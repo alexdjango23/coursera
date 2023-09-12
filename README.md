@@ -18,78 +18,13 @@ FROM
 
 2. Reformat the final_assignments_qa to look like the final_assignments table, filling in any missing values with a placeholder of the appropriate data type.
 ```
-CREATE TABLE 
-	dsv1069.final_assignments 
-	(
-	item_id INT(10) NOT NULL PRIMARY KEY,
-	test_assignment INT(10),
-	test_number VARCHAR(11),
-	test_start_date DATETIME
-	);
-
-INSERT INTO 
-	dsv1069.final_assignments
-SELECT
-	item_id,
-	test_assignment,
-	test_number, 
-	test_start_date -- note this column is missing from the table
-FROM
-	(
-	SELECT 
-  		item_id,
-  		test_a AS test_assignment,
- 		'test_a' AS test_number,
-		test_start_date -- note this column is missing from the table
-	FROM 
- 		dsv1069.final_assignments_qa
-  
-	UNION ALL 
-	SELECT 
-  		item_id,
-  		test_b AS test_assignment,
- 		'test_b' AS test_number,
-		test_start_date -- note this column is missing from the table
-	FROM 
- 		dsv1069.final_assignments_qa
-  
-	UNION ALL 
-	SELECT 
-  		item_id,
-  		test_c AS test_assignment,
- 		'test_c' AS test_number,
-		test_start_date -- note this column is missing from the table
-	FROM 
- 		dsv1069.final_assignments_qa
-  
-	UNION ALL 
-	SELECT 
-  		item_id,
-  		test_d AS test_assignment,
- 		'test_d' AS test_number,
-		test_start_date -- note this column is missing from the table
-	FROM 
- 		dsv1069.final_assignments_qa
-  
-	UNION ALL 
-	SELECT 
-  		item_id,
-  		test_e AS test_assignment,
- 		'test_e' AS test_number,
-		test_start_date -- note this column is missing from the table
-	FROM 
- 		dsv1069.final_assignments_qa
-  
-	UNION ALL 
-	SELECT 
-  		item_id,
-  		test_f AS test_assignment,
- 		'test_f' AS test_number,
-		test_start_date -- note this column is missing from the table
-	FROM 
- 		dsv1069.final_assignments_qa
-  
-	) AS final_assignments_pivot
+SELECT 
+  item_id,
+  test_a       AS test_assignment, 
+  'test_a'     AS test_number, 
+  '2020-01-01' AS test_start_date
+FROM 
+  dsv1069.final_assignments_qa
 ```
 
 3. Use this table to compute order_binary for the 30 day window after the test_start_date for the test named item_test_2
