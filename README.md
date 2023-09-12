@@ -121,7 +121,14 @@ For both experiments, there is no statistically significant change to the metric
 6. Use Mode’s Report builder feature to write up the test. Your write-up should include a title, a graph for each of the two binary metrics you’ve calculated. The lift and p-value (from the AB test calculator) for each of the two metrics, and a complete sentence to interpret the significance of each of the results.
 
 ```
-For both experiments, there is no statistically significant change to the metrics viewed percent as a result of the treatment.
+Order binary
+The p-value is 0.88., and the lift is -1%.
+There is no confidence in proving that the control and variance have difference chances of success.
+
+View binary
+P value for this lift 0.2, and test group has 2.6% more viewed items.
+For both experiments, there is no statistically significant change to the metrics viewed percent as a result of the treatment. 
+
 
 Obviously i wont be able to include graphs that i created into Github. Please be kind in your review. I did created two bar charts.
 I just cannot include it due to the shortcomings of this course assignment set-up.
