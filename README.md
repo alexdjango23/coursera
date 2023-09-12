@@ -1,6 +1,6 @@
-# Hi student, the reason i am not using Mode, is because as free user i cannot enable external sharing. So you wont be able to open the link.
-Please see answers below. You can copy and paste the code into Mode to validate the result. Obviously i wont be able to include graphs that i created into Github. Please be kind in your review. I did created two bar charts. I just cannot include it due to the shortcomings of this course assignment set-up.
+# Hi student, the reason i am not using Mode, is because as free user i cannot enable external sharing. This is the shortcoming of the course set-up.  Note that in order to share a Mode link with external views, you have to pay to be a premium account.
 
+# Please see answers below. You can copy and paste the code into Mode to validate the result. You can find the table and charts under the Files section on the left hand side.
 
 1. We are running an experiment at an item-level, which means all users who visit will see the same page, but the layout of different item pages may differ.
 Compare this table to the assignment events we captured for user_level_testing.
@@ -28,6 +28,8 @@ FROM
 ```
 
 3. Use this table to compute order_binary for the 30 day window after the test_start_date for the test named item_test_2
+
+# You can find the table and charts under the Files section on the left hand side.
 ```
 SELECT 
 test_assignment,
@@ -61,7 +63,7 @@ test_assignment
 ```
 
 4. Use this table to compute view_binary for the 30 day window after the test_start_date for the test named item_test_2
-
+# You can find the table and charts under the Files section on the left hand side.
 ```
 SELECT 
   test_assignment,
@@ -119,6 +121,7 @@ For both experiments, there is no statistically significant change to the metric
 ```
 
 6. Use Mode’s Report builder feature to write up the test. Your write-up should include a title, a graph for each of the two binary metrics you’ve calculated. The lift and p-value (from the AB test calculator) for each of the two metrics, and a complete sentence to interpret the significance of each of the results.
+# You can find the table and charts under the Files section on the left hand side.
 
 ```
 Order binary
@@ -128,11 +131,4 @@ There is no confidence in proving that the control and variance have difference 
 View binary
 P value for this lift 0.2, and test group has 2.6% more viewed items.
 For both experiments, there is no statistically significant change to the metrics viewed percent as a result of the treatment. 
-
-
-Obviously i wont be able to include graphs that i created into Github. Please be kind in your review. I did created two bar charts.
-I just cannot include it due to the shortcomings of this course assignment set-up.
-Note that in order to share a Mode link with external views, you have to pay to be a premium account. This is a trap.
-Therefore, i cannot share my Mode link.
-
 ```
