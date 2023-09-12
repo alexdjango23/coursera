@@ -17,6 +17,7 @@ FROM
 
 
 2. Reformat the final_assignments_qa to look like the final_assignments table, filling in any missing values with a placeholder of the appropriate data type.
+# You can find the table under the Files section on the left hand side.
 ```
 SELECT 
   item_id,
