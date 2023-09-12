@@ -22,7 +22,7 @@ SELECT
   item_id,
   test_a       AS test_assignment, 
   'test_a'     AS test_number, 
-  '2020-01-01' AS test_start_date
+  '2023-01-01' AS test_start_date
 FROM 
   dsv1069.final_assignments_qa
 ```
